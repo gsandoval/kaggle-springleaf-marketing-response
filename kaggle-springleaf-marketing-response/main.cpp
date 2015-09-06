@@ -2,11 +2,16 @@
 //  main.cpp
 //  kaggle-springleaf-marketing-response
 //
-//  Created by Guillermo Alberto Sandoval Sanchez on 9/6/15.
-//
-//
 
 #include <iostream>
+#include <algorithm>
+#include <vector>
+#include <cmath>
+#include <string>
+#include <fstream>
+#include <queue>
+#include <numeric>
+#include <ctime>
 
 int main(int argc, const char * argv[]) {
     // insert code here...
