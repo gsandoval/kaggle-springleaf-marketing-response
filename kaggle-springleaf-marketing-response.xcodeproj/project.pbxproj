@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A25B248E1B9CE784007CC04B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A25B248D1B9CE784007CC04B /* main.cpp */; };
+		A2F95B061B9DEFF20055FFFF /* console_parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2F95B041B9DEFF20055FFFF /* console_parameters.cpp */; };
+		A2F95B091B9DFDA50055FFFF /* springleaf_data_parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2F95B071B9DFDA50055FFFF /* springleaf_data_parser.cpp */; };
+		A2F95B0D1B9DFDC70055FFFF /* csv_column_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2F95B0B1B9DFDC70055FFFF /* csv_column_reader.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		A25B248A1B9CE784007CC04B /* kaggle-springleaf-marketing-response */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "kaggle-springleaf-marketing-response"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A25B248D1B9CE784007CC04B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A2F95B041B9DEFF20055FFFF /* console_parameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = console_parameters.cpp; sourceTree = "<group>"; };
+		A2F95B051B9DEFF20055FFFF /* console_parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = console_parameters.h; sourceTree = "<group>"; };
+		A2F95B071B9DFDA50055FFFF /* springleaf_data_parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = springleaf_data_parser.cpp; sourceTree = "<group>"; };
+		A2F95B081B9DFDA50055FFFF /* springleaf_data_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = springleaf_data_parser.h; sourceTree = "<group>"; };
+		A2F95B0B1B9DFDC70055FFFF /* csv_column_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = csv_column_reader.cpp; sourceTree = "<group>"; };
+		A2F95B0C1B9DFDC70055FFFF /* csv_column_reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csv_column_reader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				A25B248D1B9CE784007CC04B /* main.cpp */,
+				A2F95B041B9DEFF20055FFFF /* console_parameters.cpp */,
+				A2F95B051B9DEFF20055FFFF /* console_parameters.h */,
+				A2F95B071B9DFDA50055FFFF /* springleaf_data_parser.cpp */,
+				A2F95B081B9DFDA50055FFFF /* springleaf_data_parser.h */,
+				A2F95B0B1B9DFDC70055FFFF /* csv_column_reader.cpp */,
+				A2F95B0C1B9DFDC70055FFFF /* csv_column_reader.h */,
 			);
 			path = "kaggle-springleaf-marketing-response";
 			sourceTree = "<group>";
@@ -118,6 +133,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A25B248E1B9CE784007CC04B /* main.cpp in Sources */,
+				A2F95B0D1B9DFDC70055FFFF /* csv_column_reader.cpp in Sources */,
+				A2F95B061B9DEFF20055FFFF /* console_parameters.cpp in Sources */,
+				A2F95B091B9DFDA50055FFFF /* springleaf_data_parser.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +252,7 @@
 				A25B24931B9CE784007CC04B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
